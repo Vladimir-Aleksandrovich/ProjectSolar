@@ -604,7 +604,7 @@ body {
 
 .social__links {
   width: 94px;
-  height: 26.12px;
+  height: 26.12px;     
 }
 
 .box5__email-wrapper {
@@ -682,7 +682,7 @@ body {
 
 
 /* modal window */
-.modal-bg {
+.modal {
     position: fixed; /* Sit on top of the page content */
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
@@ -693,7 +693,7 @@ body {
     background-color: rgba(0,0,0,0.5); 
     z-index: 2;
 }
-.modal-window {
+.modal__window {
     position: relative;
     width: 500px;
     height: 300px;
@@ -718,7 +718,7 @@ body {
     display: block;
 }
 
-.modal-form {
+.modal__form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -760,24 +760,13 @@ input[type="text"]::placeholder {
 }
 
 
-.cross {
+.modal__cross {
    position: absolute;
    left: 430px;
    top: 5px;
    cursor: pointer;
 }
 
-.cross img {
+.modal__cross-img {
    background-size: cover;
-}
-
-
-
-/* .cross img {
-  background-size: cover;
-}
-
-
-.cross img {
-  background-size: cover;
-} */
+  }
