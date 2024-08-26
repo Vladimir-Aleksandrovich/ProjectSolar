@@ -329,6 +329,12 @@ body {
   cursor: pointer;
 }
 
+.contact-us-btn:hover{
+  background: #ffffff;
+  transition: 0.5s;
+  color: #131313;
+}
+
 /* What we do */
 .what__we__do__section {
   height: 865.62px;
@@ -505,13 +511,14 @@ body {
   margin-bottom: 44.77px;
 }
 
-.box1__line {
+.hr-1 {
   border: 1px solid #ffffff;
   margin: 0;
   opacity: 20%;
 }
 
 .box2 {
+  position: relative;
   padding-left: 150.5px;
   padding-top: 102.31px;
 }
@@ -527,7 +534,28 @@ body {
   margin-bottom: 30.12px;
 }
 
+.hr-2 {
+  border: 1px solid #ffffff;
+  margin: 0;
+  opacity: 20%;
+  height: 426px;
+  width: 0;
+  position: absolute;
+  left: 525px;
+  bottom: 25px;
+}
+
+.hr-3 {
+  border: 1px solid #ffffff;
+  opacity: 20%;
+  position: absolute;
+  width: 1440px;
+  left: 0px;
+  bottom: 11px;
+}
+
 .box3 {
+  position: relative;
   padding-top: 145.4px;
   padding-left: 55px;
 }
@@ -558,7 +586,19 @@ body {
   font-weight: 300;
 }
 
+.hr-4 {
+  border: 1px solid #ffffff;
+  margin: 0;
+  opacity: 20%;
+  height: 426px;
+  width: 0;
+  position: absolute;
+  left: 205px;
+  bottom: 25px;
+}
+
 .box4 {
+  position: relative;
   padding-top: 145.4px;
   padding-left: 55px;
 }
@@ -575,6 +615,19 @@ body {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.hr-5 {
+  border: 1px solid #ffffff;
+  margin: 0;
+  opacity: 20%;
+  height: 426px;
+  width: 0;
+  position: absolute;
+  left: 277px;
+  bottom: 25px;
+}
+
+
 
 .box5 {
   display: flex;

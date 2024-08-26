@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", () => {
+
 const tabs = document.querySelectorAll(".tab"),
   body = document.querySelector("body"),
   readMoreBtn = document.querySelector(".read-more-btn");
@@ -30,6 +32,7 @@ const secondsDiv = document.querySelector(".seconds"),
   minutesDiv = document.querySelector(".minutes"),
   hoursDiv = document.querySelector(".hours"),
   daysDiv = document.querySelector(".days");
+  
 
 setInterval(() => {
   let minutesLeft, secondsLeft, hoursLeft, daysLeft;
@@ -52,11 +55,12 @@ setInterval(() => {
       container.innerHTML = `0${number}`;
     }
   }
-  function checkDate() {
+
+   function checkDate() {
     if (deadLine - now <= 0) {
+      dayCounter = Math.round((now - deadLine) / 86400000)
       deadLine = new Date(Date.parse(deadLine) + 86400000 * dayCounter);
-      dayCounter++;
-      console.log(deadLine);
+      console.log(deadLine)
       return deadLine;
     }
   }
@@ -73,7 +77,8 @@ const contactUsBtn = document.querySelector(".contact-us-btn"),
   modalWindow = document.querySelector(".modal__window"),
   modalForm = document.querySelector(".modal__form"),
   cross = document.querySelector(".modal__cross-img");
-
+  let i = 0;
+  
 let showModalWindow = () => {
   body.style.overflowY = "hidden";
   modalBg.classList.add("show");
@@ -100,12 +105,11 @@ modalBg.addEventListener("click", (e) => {
 
 
 window.addEventListener("scroll", () => {
-    console.log(document.documentElement.scrollHeight)
-    console.log(document.documentElement.clientHeight + document.documentElement.scrollTop)
   if (
     document.documentElement.clientHeight + document.documentElement.scrollTop ==
-    document.documentElement.scrollHeight
-  ){
+    document.documentElement.scrollHeight && i!= 1)
+  {
+    i = 1;
     showModalWindow();
   }
 }
@@ -158,3 +162,13 @@ new TabItem(
 
 
  // data form
+
+// let modalBtn = document.querySelector("modal-btn");
+// console.log(modalBtn);
+modalForm.addEventListener("submit", () => {
+  e.preventDefault();
+  let form = new FormData();
+  console.log(form)
+})
+
+})
