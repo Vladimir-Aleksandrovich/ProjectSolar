@@ -21,14 +21,14 @@
         <div class="logo-container__pic"></div>
         <p class="logo-container__text">LOGO <br>HERE</p>
       </div>
-      <div class="header__bar">
+      <nav class="header__bar">
         <a class="header__href" href="#">HOME</a>
         <a class="header__href" href="#">ABOUT US</a>
         <a class="header__href" href="#">SOLAR INITIATIVES</a>
         <a class="header__href" href="#">OUR SERVICES</a>
         <a class="header__href" href="#">COMMUNITY</a>
         <a class="header__href" href="#">AESTHETICS</a>
-      </div>
+      </nav>
     </div>
   </header>
   <div class="heading-img">
@@ -164,19 +164,19 @@
       </div>
     <div class="box3">
      <p class="box3__title">Quick Links</p>
-     <div class="box3__bar">
+     <nav class="box3__nav-bar">
       <a class="links" href="#">Home</a>
       <a class="links" href="#">About us</a>
       <a class="links" href="#">Solar Initiatives</a>
       <a class="links" href="#">Our Services</a>
       <a class="links" href="#">Community</a>
       <a class="links" href="#">Aesthetics</a>
-     </div>
+     </nav>
      <hr class="hr-4">
     </div>
     <div class="box4">
      <p class="box4__title">Services</p>
-     <div class="box4__bar">
+     <div class="box4__nav-bar">
       <a class="links" href="#">Solar Solution</a>
       <a class="links" href="#">Cable Services</a>
       <a class="links" href="#">Deals and Promotions</a>
@@ -221,8 +221,8 @@
 <div class="modal hide">
   <div class="modal__window">
     <form class="modal__form">
-      <input id="name" type="text" placeholder="Your name">
-      <input id="phone" type="text" placeholder="Your phone number">
+      <input id="name" type="text" name="name" placeholder="Your name">
+      <input id="phone" type="text" name="phone" placeholder="Your phone number">
       <button class="modal-btn" type="submit">Call me</button>
     </form>
   <div class="modal__cross">
@@ -231,9 +231,7 @@
   </div> 
 </div>
 
-<div class="trash">
-
-</div>
-  <script src="js/main.js"></script>
- </body>
+  <!-- <script type="text/javascript" src="js/jquery-3.7.1.min.js"></script> -->
+  <script src="dist/bundle.js"></script>
+</body>
 </html>

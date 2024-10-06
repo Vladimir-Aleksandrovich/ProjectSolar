@@ -125,7 +125,7 @@ body {
   background-size: cover;
   border-radius: 10px;
 }
-
+/* 
 .card__wrapper:nth-child(1) {
   background-image: url("../img/Group 28.svg");
 }
@@ -141,7 +141,7 @@ body {
 .card__wrapper:nth-child(4) {
   background-image: url("../img/Group 31.png");
   margin-right: 0;
-}
+} */
 
 .card__header {
   color: #ffffff;
@@ -334,6 +334,12 @@ body {
   transition: 0.5s;
   color: #131313;
 }
+
+.contact-us-btn:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
 
 /* What we do */
 .what__we__do__section {
@@ -569,7 +575,7 @@ body {
   line-height: 35px;
 }
 
-.box3__bar {
+.box3__nav-bar {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -608,7 +614,7 @@ body {
   margin-bottom: 14px;
 }
 
-.box4__bar {
+.box4__nav-bar {
   display: flex;
   width: 179px;
   height: 140px;
@@ -809,7 +815,7 @@ body {
 }
 
 input[type="text"]::placeholder {
-  text-align: center;  /* Плейсхолдер теперь центрирован */
+  text-align: center;  
 }
 
 
@@ -823,3 +829,7 @@ input[type="text"]::placeholder {
 .modal__cross-img {
    background-size: cover;
   }
+
+/* .modal-answer {
+
+} */

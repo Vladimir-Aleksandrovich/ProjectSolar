@@ -1,0 +1,165 @@
+{
+  "tabs": [
+    {
+      "title": "Cable <br>Services",
+      "text": "Stay connected with high-quality cable services that deliver reliable and fast internet, television.",
+      "img": "url('img/Group 28.svg')",
+      "id": "a69f"
+    },
+    {
+      "title": "Phone <br>Services</p>",
+      "text": "Discover cost-effective and feature-rich phone services that keep you connected to your loved ones.",
+      "img": "url('img/Group 29.png')",
+      "id": "65ad"
+    },
+    {
+      "title": "Phone <br>Services</p>",
+      "text": "Discover cost-effective and feature-rich phone services that keep you connected to your loved ones.",
+      "img": "url('img/Group 30.png')",
+      "id": "ad79"
+    },
+    {
+      "title": "Phone <br>Services</p>",
+      "text": "Discover cost-effective and feature-rich phone services that keep you connected to your loved ones.",
+      "img": "url('img/Group 31.png')",
+      "id": "86b6"
+    }
+  ],
+  "customers": [
+    {
+      "id": "c184",
+      "name": "qew",
+      "phone": "qweq"
+    },
+    {
+      "id": "48e8",
+      "name": "213",
+      "phone": "123"
+    },
+    {
+      "id": "595b",
+      "name": "34563",
+      "phone": "456346"
+    },
+    {
+      "id": "a3f0",
+      "name": "qwe",
+      "phone": "qwe"
+    },
+    {
+      "id": "365b",
+      "name": "123",
+      "phone": "123"
+    },
+    {
+      "id": "06d2",
+      "name": "qwe",
+      "phone": "qwe"
+    },
+    {
+      "id": "6b74",
+      "name": "234",
+      "phone": "234"
+    },
+    {
+      "id": "3ff2",
+      "name": "22",
+      "phone": "qw"
+    },
+    {
+      "id": "3ee6",
+      "name": "123",
+      "phone": "123"
+    },
+    {
+      "id": "a5b1",
+      "name": "756",
+      "phone": "576"
+    },
+    {
+      "id": "ca58",
+      "name": "234",
+      "phone": "234"
+    },
+    {
+      "id": "9dee",
+      "name": "qwe",
+      "phone": "qwe"
+    },
+    {
+      "id": "d278",
+      "name": "qwe",
+      "phone": "qwe"
+    },
+    {
+      "id": "c540",
+      "name": "qwe",
+      "phone": "qwe"
+    },
+    {
+      "id": "a759",
+      "name": "32",
+      "phone": "23"
+    },
+    {
+      "id": "0424",
+      "name": "23",
+      "phone": "2323"
+    },
+    {
+      "id": "5f56",
+      "name": "323df",
+      "phone": ""
+    },
+    {
+      "id": "2fc0",
+      "name": "",
+      "phone": ""
+    },
+    {
+      "id": "3969",
+      "name": "asfd",
+      "phone": "23"
+    },
+    {
+      "id": "c9dc",
+      "name": "sada",
+      "phone": "231"
+    },
+    {
+      "id": "3adb",
+      "name": "asd",
+      "phone": "23"
+    },
+    {
+      "id": "1955",
+      "name": "asd",
+      "phone": "123"
+    },
+    {
+      "id": "a571",
+      "name": "asd",
+      "phone": "213"
+    },
+    {
+      "id": "2e65",
+      "name": "asd",
+      "phone": "231"
+    },
+    {
+      "id": "71c0",
+      "name": "qwe",
+      "phone": "312"
+    },
+    {
+      "id": "6f43",
+      "name": "fsdf",
+      "phone": "234"
+    },
+    {
+      "id": "72c7",
+      "name": "asds",
+      "phone": "23"
+    }
+  ]
+}
